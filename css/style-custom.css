@@ -19,10 +19,10 @@ h3{ font-size: 32px; }
 h4{ font-size: 26px; }
 h5{ font-size: 21px; }
 h6{ font-size: 16px; }
-.top-navigation-wrapper{ background-color: #272727; }
+.top-navigation-wrapper{ background-color: #000000; }
 .top-navigation-wrapper{ color: #cecece; }
 .top-navigation-wrapper a{ color: #f2f2f2; }
-.greennature-header-inner, .greennature-header-wrapper.header-style-5-wrapper .greennature-header-inner{ background-color: rgba(37, 53, 38, 0.85); }@media only screen and (max-width: 767px) { .greennature-header-wrapper.header-style-5-wrapper .greennature-header-inner{ background-color: #253526; } }
+.greennature-header-inner, .greennature-header-wrapper.header-style-5-wrapper .greennature-header-inner{ background-color: #005b5f ; }@media only screen and (max-width: 767px) { .greennature-header-wrapper.header-style-5-wrapper .greennature-header-inner{ background-color: #253526; } }
 .greennature-main-menu > li > a, .greennature-main-menu > li > a i{ color: #ffffff; } @media only screen and (max-width: 1100px) { body .greennature-donate-button, body .greennature-donate-button:hover, body .greennature-top-woocommerce-button{ color: #ffffff; }} 
 .greennature-main-menu > li:hover > a, .greennature-main-menu > li.current-menu-item > a, .greennature-main-menu > li.current-menu-ancestor > a{ color: #90ba92; opacity: 1; filter: alpha(opacity=100); }.greennature-navigation-gimmick{ background-color: #90ba92; }
 .greennature-button-overlay{ background-color: #ecb338; }
@@ -176,12 +176,12 @@ body .nivo-directionNav a, body .flex-direction-nav a, body .flex-direction-nav 
 .greennature-item-title-wrapper .greennature-flex-prev, .greennature-item-title-wrapper .greennature-flex-next{ color: #6d6d6d; }
 input[type="text"], input[type="email"], input[type="password"], textarea{ background-color: #f5f5f5; }
 input[type="text"], input[type="email"], input[type="password"], textarea{ color: #797979; }input::input-placeholder{ color:#797979; } input::-webkit-input-placeholder{ color:#797979; }input::-moz-placeholder{ color:#797979; } input:-moz-placeholder{ color:#797979; }input:-ms-input-placeholder{ color:#797979; }textarea::input-placeholder{ color:#797979; } textarea::-webkit-input-placeholder{ color:#797979; }textarea::-moz-placeholder{ color:#797979; } textarea:-moz-placeholder{ color:#797979; }textarea:-ms-input-placeholder{ color:#797979; }
-.footer-wrapper{ background-color: #231e18; }
+.footer-wrapper{ background-color: #000000; }
 .footer-wrapper .greennature-widget-title, .footer-wrapper .greennature-widget-title a{ color: #dddddd; }
 .footer-wrapper{ color: #bfbfbf; }
 .footer-wrapper a{ color: #7f7f7f; }
 .footer-wrapper a:hover{ color: #cecece; }
-.footer-wrapper *{ border-color: #382f24; }
+.footer-wrapper *{ border-color: #000; }
 .footer-wrapper input[type="text"], .footer-wrapper input[type="email"], .footer-wrapper input[type="password"], .footer-wrapper textarea{ background-color: #141414; }
 .footer-wrapper input[type="text"], .footer-wrapper input[type="email"], .footer-wrapper input[type="password"], .footer-wrapper textarea{ color: #828282; }
 .footer-wrapper input[type="text"], .footer-wrapper input[type="email"], .footer-wrapper input[type="password"], .footer-wrapper textarea{ border-color: #313131; }
@@ -189,9 +189,9 @@ input[type="text"], input[type="email"], input[type="password"], textarea{ color
 .footer-wrapper .greennature-button, .footer-wrapper input[type="button"], .footer-wrapper input[type="submit"]{ background-color: #5dc269; }
 .footer-wrapper .tagcloud a{ background-color: #5dc269; }
 .footer-wrapper .tagcloud a, .footer-wrapper .tagcloud a:hover{ color: #ffffff; }
-.copyright-wrapper{ background-color: #191612; }
+.copyright-wrapper{ background-color: #000000; }
 .copyright-wrapper{ color: #999999; }
-.footer-wrapper .copyright-wrapper{ border-color: #191612; }
+.footer-wrapper .copyright-wrapper{ border-color: #000; }
 html  .woocommerce span.onsale, html  .woocommerce-page span.onsale, html .woocommerce-message,html .woocommerce div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,html .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active {  background: #5dc269; }html .woocommerce .star-rating, html .woocommerce-page .star-rating, html .woocommerce .star-rating:before, html .woocommerce-page .star-rating:before, html .woocommerce div.product span.price, html .woocommerce div.product p.price, html .woocommerce #content div.product span.price, html .woocommerce #content div.product p.price, html .woocommerce-page div.product span.price, html .woocommerce-page div.product p.price, html .woocommerce-page #content div.product span.price, html .woocommerce-page #content div.product p.price {color: #5dc269; }
 html .woocommerce-message  a.button, html .woocommerce-error  a.button, html .woocommerce-info  a.button, html .woocommerce-message, html .woocommerce-error, html .woocommerce-info, html  .woocommerce span.onsale, html  .woocommerce-page span.onsale, html .woocommerce div.product .woocommerce-tabs ul.tabs li.active,html .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce nav.woocommerce-pagination ul li span.current, html .woocommerce-page nav.woocommerce-pagination ul li span.current, html .woocommercenav.woocommerce-pagination ul li a:hover, html .woocommerce-page nav.woocommerce-pagination ul li a:hover{ color: #ffffff; }
 html .woocommerce-info{ background: #389EC5; }
@@ -263,12 +263,12 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
 .greennature-skin-newsletter .greennature-skin-box, .greennature-skin-newsletter .greennature-column-service-item .greennature-skin-box{ background-color: #ffffff; }
 .greennature-skin-newsletter *, .greennature-skin-newsletter .greennature-skin-border{ border-color: #ffffff; }
 .greennature-skin-newsletter .greennature-button, .greennature-skin-newsletter .greennature-button:hover, .greennature-skin-newsletter input[type="button"], .greennature-skin-newsletter input[type="submit"]{ color: #ffffff; background-color: #5dc269;  }
-.greennature-skin-brown-column-service, .greennature-skin-brown-column-service .greennature-skin-content{ color: #ffffff; }
+.greennature-skin-brown-column-service, .greennature-skin-brown-column-service .greennature-skin-content{ color: rgb(144, 144, 144); }
 .greennature-skin-brown-column-service i, .greennature-skin-brown-column-service .greennature-flex-prev, .greennature-skin-brown-column-service .greennature-flex-next{ color: #ffffff; }
-.greennature-skin-brown-column-service h1, .greennature-skin-brown-column-service h2, .greennature-skin-brown-column-service h3, .greennature-skin-brown-column-service h4, .greennature-skin-brown-column-service h5, .greennature-skin-brown-column-service h6, .greennature-skin-brown-column-service .greennature-skin-title, .greennature-skin-brown-column-service .greennature-skin-title a{ color: #ffffff; }
+.greennature-skin-brown-column-service h1, .greennature-skin-brown-column-service h2, .greennature-skin-brown-column-service h3, .greennature-skin-brown-column-service h4, .greennature-skin-brown-column-service h5, .greennature-skin-brown-column-service h6, .greennature-skin-brown-column-service .greennature-skin-title, .greennature-skin-brown-column-service .greennature-skin-title a{ color: rgb(140, 140, 140); }
 .greennature-skin-brown-column-service .greennature-skin-title a:hover{ color: #ffffff; }
 .greennature-skin-brown-column-service .greennature-skin-info, .greennature-skin-brown-column-service .greennature-skin-info a, .greennature-skin-brown-column-service .greennature-skin-info a:hover{ color: #ffffff; }
-.greennature-skin-brown-column-service a, .greennature-skin-brown-column-service .greennature-skin-link, .greennature-skin-brown-column-service .greennature-skin-link-color{ color: #ffffff; }
+.greennature-skin-brown-column-service a, .greennature-skin-brown-column-service .greennature-skin-link, .greennature-skin-brown-column-service .greennature-skin-link-color{ color: rgb(140, 140, 140); }
 .greennature-skin-brown-column-service a:hover, .greennature-skin-brown-column-service .greennature-skin-link:hover{ color: #ffffff; }
 .greennature-skin-brown-column-service .greennature-skin-box, .greennature-skin-brown-column-service .greennature-column-service-item .greennature-skin-box{ background-color: #ffffff; }
 .greennature-skin-brown-column-service *, .greennature-skin-brown-column-service .greennature-skin-border{ border-color: #ffffff; }
