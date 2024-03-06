@@ -1682,3 +1682,32 @@ input[type="text"].greennature-payment-price-fill { display: inline-block;
 .greennature-image img {
 	width: 100%;
 }
+
+.home-banner {
+	width: 100%;
+	height: 90vh;
+}
+
+.home-banner .swiper-slide img {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 16 /9;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.home-banner .swiper-button-prev, .home-banner .swiper-button-next {
+	color: #fff;
+}
+
+.home-banner .swiper-button-prev:after, .home-banner .swiper-button-next:after {
+	font-size: 2rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+	background-color: #ccc;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+	background-color: #fff;
+}

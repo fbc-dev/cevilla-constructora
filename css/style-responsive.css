@@ -40,7 +40,6 @@ html body{ min-width: 300px; }
 
 /*--- mobile landscape style ---*/
 @media only screen and (max-width: 767px) {
-	body .container{ max-width: 420px; }
 	body .body-wrapper.greennature-boxed-style { max-width: 460px; }
 	body .body-wrapper{ overflow: hidden; }
 	
@@ -67,15 +66,11 @@ html body{ min-width: 300px; }
 	/*--- header ---*/
 	body .top-navigation-left{ float: none; text-align: center; padding: 3px 0px;}
 	body .top-navigation-right { float: none; text-align: center; padding: 3px 0px;}
-	body .greennature-logo { padding-right: 60px; }
-	body .greennature-logo-inner { margin-left: 0px; }
 	
 	#greennature-responsive-navigation { display: block; height: 0px; position: static; float: none; }
 	#greennature-responsive-navigation .dl-trigger{ position: absolute; right: 15px; top: 20px; margin-top: 0px; }
 	.dl-menuwrapper > .dl-menu, 
 	.dl-menuwrapper > .dl-submenu{ margin: 20px 0px 0px; width: 390px; text-align: left; }
-
-	.greennature-navigation-wrapper{ display: none; }
 
 	/*--- page item ---*/
 	.greennature-item-title-head .greennature-nav-title{ display: none; }
