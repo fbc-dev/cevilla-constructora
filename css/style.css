@@ -261,7 +261,7 @@ html .woocommerce .greennature-widget-title { font-size: 12px; }
 .greennature-page-title-wrapper .greennature-page-title-gimmick { font-size: 20px; display: block; margin-top: 20px; }	
 .greennature-full-size-wrapper .greennature-item-title-head { margin-left: 15px; margin-right: 15px; position: relative; }
 
-.greennature-header-wrapper.header-style-5-wrapper { position: absolute; left: 0px; right: 0px; }
+/* .greennature-header-wrapper.header-style-5-wrapper { position: absolute; left: 0px; right: 0px; } */
 .header-style-5-title-wrapper.greennature-page-title-wrapper{ padding-top: 190px; }
 
 /*--- header shortcode ---*/
@@ -1691,7 +1691,7 @@ input[type="text"].greennature-payment-price-fill { display: inline-block;
 .home-banner .swiper-slide img {
 	width: 100%;
 	height: 100%;
-	aspect-ratio: 16 /9;
+	aspect-ratio: 4/3;
 	object-fit: cover;
 	cursor: pointer;
 }

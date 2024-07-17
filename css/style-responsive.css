@@ -15,12 +15,26 @@ html body{ min-width: 300px; }
 @media only screen and (max-width: 1050px) {
 	body .greennature-logo { float: none; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 20px; } 
 	body .greennature-logo-inner { margin: 0px auto; }
-	body .greennature-navigation-wrapper{ float: none; margin-top: 10px; line-height: 0; text-align: center;  }
-	body .greennature-navigation { display: inline-block; line-height: 1.7; text-align: left; }
+	body .greennature-navigation-wrapper{ float: none; margin-top: 10px; line-height: 0; text-align: center; margin-right: 0; margin-left: 0; }
+	body .greennature-navigation { display: inline-block; line-height: 1.7; text-align: left;}
 	body .greennature-logo-right-text{ float: none; margin-top: 10px; text-align: center; }
 	body .greennature-navigation-wrapper .greennature-main-menu > li > a{ padding-bottom: 25px; }	
 	body .greennature-button-overlay { top: auto; height: 70px; }
 	body .greennature-fixed-header .greennature-logo{ display: none; }
+	body .greennature-header-container { max-width: 90%!important;}
+	body #menu-main-menu-1 {
+		display: flex;
+		gap: 10px;
+	}
+
+	body #menu-main-menu-1 li a {
+		padding-right: 0;
+		padding-bottom: 10px;
+	}
+
+	.sf-menu i {
+		margin-right: 5px;
+	}
 }
 
 @media only screen and (max-width: 959px) {
