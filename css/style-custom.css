@@ -231,10 +231,10 @@ body {
   color: #808080;
 }
 a {
-  color: #5dc269;
+  color: #005b5f;
 }
 a:hover {
-  color: #2c8e3b;
+  color: #005b5f;
 }
 body * {
   border-color: #dddddd;
@@ -531,10 +531,10 @@ table.style-2 tr:nth-child(even) {
   color: #ffffff;
 }
 .portfolio-title a {
-  color: #5dc269;
+  color: #000;
 }
 .portfolio-title a:hover {
-  color: #3f873e;
+  color: #000;
 }
 .portfolio-info,
 .portfolio-info a {
@@ -584,7 +584,7 @@ table.style-2 tr:nth-child(even) {
 }
 .greennature-testimonial-item.plain-style.greennature-left
   .testimonial-item:before {
-  color: #5dc269;
+  color: #005b5f;
 }
 .greennature-testimonial-item .testimonial-author {
   color: #5dc269;
@@ -1309,10 +1309,10 @@ html .woocommerce-page #content .quantity .minus:hover {
 .greennature-skin-service-half h6,
 .greennature-skin-service-half .greennature-skin-title,
 .greennature-skin-service-half .greennature-skin-title a {
-  color: #5dc269;
+  color: #005b5f;
 }
 .greennature-skin-service-half .greennature-skin-title a:hover {
-  color: #5dc269;
+  color: #005b5f;
 }
 .greennature-skin-service-half .greennature-skin-info,
 .greennature-skin-service-half .greennature-skin-info a,

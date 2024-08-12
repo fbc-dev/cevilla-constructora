@@ -85,8 +85,8 @@
                         <nav class="greennature-navigation" id="greennature-main-navigation">
                             <ul id="menu-main-menu-1" class="sf-menu greennature-main-menu">
                                 <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-                                <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="portfolio-grid-4-columns-with-filter.html" aria-current="page">Proyectos</a></li>
-                                <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="gallery-3-columns-with-caption.html" aria-current="page">Galería</a></li>
+                                <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="portfolio.html" aria-current="page">Proyectos</a></li>
+                                <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="gallery.html" aria-current="page">Galería</a></li>
                                 <li class="menu-item menu-item-home current-menu-item greennature-normal-menu"><a href="#contact-form" aria-current="page">Contacto</a></li>
                             </ul>
                         </nav>
@@ -109,22 +109,28 @@
                             <div class="swiper-wrapper">
                               <!-- Slides -->
                               <div class="swiper-slide">
-                                <img src="/images/slide_1.jpg" alt="" />
+                                <img src="/images/slide_1.jpg" class="small-hide" alt="" />
+                                <img src="/images/mobile_slide_1.jpg" class="medium-hide large-hide" alt="" />
                               </div>
                               <div class="swiper-slide">
-                                <img src="/images/slide_2.png" alt="" />
+                                <img src="/images/slide_2.png" class="small-hide" alt="" />
+                                <img src="/images/mobile_slide_2.jpg" class="medium-hide large-hide" alt="" />
                               </div>
                               <div class="swiper-slide">
-                                <img src="/images/slide_3.jpeg" alt="" />
+                                <img src="/images/slide_3.jpeg" class="small-hide" alt="" />
+                                <img src="/images/mobile_slide_3.jpg" class="medium-hide large-hide" alt="" />
                               </div>
                               <div class="swiper-slide">
-                                <img src="/images/slide_4.jpg" alt="" />
+                                <img src="/images/slide_4.jpg" class="small-hide" alt="" />
+                                <img src="/images/mobile_slide_4.jpg" class="medium-hide large-hide" alt="" />
                               </div>
                               <div class="swiper-slide">
-                                <img src="/images/slide_5.png" alt="" />
+                                <img src="/images/slide_5.png" class="small-hide" alt="" />
+                                <img src="/images/mobile_slide_5.jpeg" class="medium-hide large-hide" alt="" />
                               </div>
                               <div class="swiper-slide">
-                                <img src="/images/slide_6.jpg" alt="" />
+                                <img src="/images/slide_6.jpg" class="small-hide" alt="" />
+                                <img src="/images/mobile_slide_6.jpg" class="medium-hide large-hide" alt="" />
                               </div>
                             </div>
                             <!-- If we need pagination -->
@@ -234,7 +240,7 @@
                                             <div class="three columns">
                                                 <div class="greennature-item greennature-portfolio-item greennature-classic-portfolio">
                                                     <div class="greennature-ux greennature-classic-portfolio-ux">
-                                                        <div class="portfolio-thumbnail greennature-image"><img src="/images/deptos-c-nava.jpg" alt="" width="540" height="326" /><span class="portfolio-overlay">&nbsp;</span><a class="portfolio-overlay-icon" href="/images/deptos-c-nava.jpg" data-rel="fancybox"><span class="portfolio-icon" ><i class="fa fa-search" ></i></span></a></div>
+                                                        <div class="portfolio-thumbnail greennature-image"><img src="/images/deptos-c-nava.jpg" alt="" width="540" height="326" /><span class="portfolio-overlay">&nbsp;</span><a class="portfolio-overlay-icon" href="/images/casa-aguacate.jpg" data-rel="fancybox"><span class="portfolio-icon" ><i class="fa fa-search" ></i></span></a></div>
                                                         <div class="portfolio-classic-content">
                                                             <h3 class="portfolio-title"><a  href="#">DEPTOS. C. NAVA</a></h3>
                                                             <div class="greennature-portfolio-info">
@@ -273,7 +279,7 @@
                     </section>
                     <section id="content-section-5">
                         <div class="greennature-color-wrapper  gdlr-show-all greennature-skin-service-half greennature-half-bg-wrapper" style="background-color: #f5f5f5; padding-bottom: 20px; ">
-                            <div class="greennature-half-bg greennature-bg-solid" style="background-image: url(upload/shutterstock_133689230.jpg);"></div>
+                            <div class="greennature-half-bg greennature-bg-solid" style="background-image: url(images/employees.jpg);"></div>
                             <div class="container">
                                 <div class="six columns">
                                     <div class="greennature-item greennature-content-item"></div>
@@ -590,132 +596,69 @@
             </div>
         </footer>
 
-        <div class="greennature-payment-lightbox-overlay" id="greennature-payment-lightbox-overlay"></div>
-        <div class="greennature-payment-lightbox-container" id="greennature-payment-lightbox-container">
-            <div class="greennature-payment-lightbox-inner">
-                <form class="greennature-payment-form" id="greennature-payment-form" >
-                    <h3 class="greennature-payment-lightbox-title">
-				<span class="greennature-head">You are donating to :</span>
-				<span class="greennature-tail">Greennature Foundation</span>
-			</h3>
-
-                    <div class="greennature-payment-amount">
-                        <div class="greennature-payment-amount-head">How much would you like to donate?</div>
-                        <a class="greennature-payment-price-preset greennature-active" data-val="10">$10</a>
-                        <a class="greennature-payment-price-preset" data-val="20">$20</a>
-                        <a class="greennature-payment-price-preset" data-val="30">$30</a>
-                        <input class="greennature-payment-price-fill" type="text" placeholder="Or Your Amount(USD)" />
-                        <input class="greennature-payment-price" type="hidden" name="amount" value="10" />
-
-                        <input class="greennature-payment-price" type="hidden" name="a3" value="10">
-                    </div>
-
-                    <div class="greennature-paypal-attribute">
-                        <span class="greennature-head">Would you like to make regular donations?</span>
-                        <span class="greennature-subhead">I would like to make </span>
-                        <select name="t3" class="greennature-recurring-option">
-                            <option value="0">one time</option>
-                            <option value="W">weekly</option>
-                            <option value="M">monthly</option>
-                            <option value="Y">yearly</option>
-                        </select>
-                        <span class="greennature-subhead">donation(s)</span>
-                        <input type="hidden" name="p3" value="1" />
-                        <div class="greennature-recurring-time-wrapper">
-                            <span class="greennature-subhead">How many times would you like this to recur? (including this payment) *</span>
-                            <select name="srt" class="greennature-recurring-option">
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <input type="hidden" name="cmd" value="_xclick">
-                        <input type="hidden" name="bn" value="PP-BuyNowBF">
-                        <input type="hidden" name="src" value="1">
-                        <input type="hidden" name="sra" value="1">
-                    </div>
-
-                    <div class="greennature-form-fields">
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-left">
-                                <span class="greennature-head">Name *</span>
-                                <input class="greennature-require" type="text" name="name">
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-right">
-                                <span class="greennature-head">Last Name *</span>
-                                <input class="greennature-require" type="text" name="last-name">
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-left">
-                                <span class="greennature-head">Email *</span>
-                                <input class="greennature-require greennature-email" type="text" name="email">
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-right">
-                                <span class="greennature-head">Phone</span>
-                                <input type="text" name="phone">
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-left">
-                                <span class="greennature-head">Address</span>
-                                <textarea name="address"></textarea>
-                            </div>
-                        </div>
-                        <div class="six columns">
-                            <div class="columns-wrap greennature-right">
-                                <span class="greennature-head">Additional Note</span>
-                                <textarea name="additional-note"></textarea>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="greennature-payment-method">
-                        <img class="greennature-active" src="images/paypal.png" alt="paypal" /><img src="images/stripe.png" alt="stripe" />
-                        <input type="hidden" name="payment-method" value="paypal" /> </div>
-                    <div class="greennature-message"></div>
-                    <div class="greennature-loading">Loading...</div>
-                    <input type="submit" value="Donate Now" />
-                </form>
-            </div>
-        </div>
     </div>
+    <div class="whatsapp-icon">
+        <a href="https://wa.me/+529996387158">
+          <svg version="1.1" id="whatsSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 58 58">
+            <g>
+                <path style="fill:#2CB742;" d="M0,58l4.988-14.963C2.457,38.78,1,33.812,1,28.5C1,12.76,13.76,0,29.5,0S58,12.76,58,28.5
+                    S45.24,57,29.5,57c-4.789,0-9.299-1.187-13.26-3.273L0,58z"/>
+                <path style="fill:#FFFFFF;" d="M47.683,37.985c-1.316-2.487-6.169-5.331-6.169-5.331c-1.098-0.626-2.423-0.696-3.049,0.42
+                    c0,0-1.577,1.891-1.978,2.163c-1.832,1.241-3.529,1.193-5.242-0.52l-3.981-3.981l-3.981-3.981c-1.713-1.713-1.761-3.41-0.52-5.242
+                    c0.272-0.401,2.163-1.978,2.163-1.978c1.116-0.627,1.046-1.951,0.42-3.049c0,0-2.844-4.853-5.331-6.169
+                    c-1.058-0.56-2.357-0.364-3.203,0.482l-1.758,1.758c-5.577,5.577-2.831,11.873,2.746,17.45l5.097,5.097l5.097,5.097
+                    c5.577,5.577,11.873,8.323,17.45,2.746l1.758-1.758C48.048,40.341,48.243,39.042,47.683,37.985z"/>
+            </g>
+          </svg>
+        </a>
+      </div>
     <!-- body-wrapper -->
     <script>
         const swiper = new Swiper('.home-banner', {
-        loop: true,
+            loop: true,
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
 
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
 
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
         });
+
+    function loadFeatureProductSliders() {
+        const modalCarousels = document.querySelectorAll('.modal-banner');
+
+        modalCarousels.forEach(carousel => {
+            const nextBtn = carousel.querySelector('.swiper-button-next');
+            const prevBtn = carousel.querySelector('.swiper-button-prev');
+    
+            const swiper = new Swiper(carousel, {
+                loop: true,
+    
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+    
+                navigation: {
+                    nextEl: nextBtn,
+                    prevEl: prevBtn,
+                }
+            });
+        });
+
+    }
+
+    loadFeatureProductSliders();
 
     </script>
 
