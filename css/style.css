@@ -1752,3 +1752,38 @@ input[type="text"].greennature-payment-price-fill { display: inline-block;
 		bottom: 10px;
 	}
 }
+
+/* Privacy page */
+.privacy-container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	color: black;
+}
+
+.privacy-title {
+	color: black;
+}
+
+.privacy-section-title {
+	color: black;
+}
+
+.privacy-text {
+	color: black;
+	line-height: 1.6;
+}
+
+.privacy-list {
+	padding-left: 20px;
+}
+
+/* Responsive styling for desktop */
+@media (min-width: 768px) {
+	.privacy-container {
+		width: 768px;
+		margin: 20px auto;
+	}
+}
