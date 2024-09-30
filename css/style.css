@@ -1787,3 +1787,7 @@ input[type="text"].greennature-payment-price-fill { display: inline-block;
 		margin: 20px auto;
 	}
 }
+
+.greennature-video-item .eapps-instagram-feed-container ~ a {
+	display: none;
+}
