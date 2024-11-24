@@ -1808,3 +1808,19 @@ input[type="text"].greennature-payment-price-fill { display: inline-block;
 		padding: 0; 
 	}
 }
+
+.follow-us-container {
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-around; 
+	align-items: center; 
+	gap: 3rem;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.follow-us-container {
+		flex-direction: row;
+		gap: 1rem;
+	}
+}
